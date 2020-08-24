@@ -11,6 +11,6 @@ Part of my talk "A Short History of IoT" at Notts Techfast 27/08/20.
 
 ## References
 
-Original Source based on https://www.instructables.com/id/Morse-Code-Decoder/
+Original Source based on: https://www.instructables.com/id/Morse-Code-Decoder/
 
-Original IoT Code taken from Microsoft Azure IoT Samples for ESP8266
+Original IoT Code taken from Microsoft Azure IoT Samples for ESP8266: https://github.com/Azure/azure-iot-arduino

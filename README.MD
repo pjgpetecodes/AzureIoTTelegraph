@@ -44,6 +44,51 @@ Generic ESP8266
     - Getting the time from the NTP can take some time to complete and results in the following message more than 20 times before the IoT Hub connects;
         > Fetching NTP epoch time failed! Waiting 2 seconds to retry.
 
+- The normal Serial Monitor log at startup will look something like the following
+
+    ```
+    Attempting to connect to SSID: xxxxxxxx
+
+    connected with xxxxxxxx, channel 6
+    dhcp client start...
+    scandone
+    state: 5 -> 2 (b0)
+    ..state: 5 -> 0 (2)
+    reconnect
+    scandone
+    state: 0 -> 2 (b0)
+    state: 2 -> 3 (0)
+    state: 3 -> 5 (10)
+    add 0
+    aid 7
+    cnt 
+
+    connected with xxxxxxx, channel 6
+    dhcp client start...
+    ip:192.168.1.189,mask:255.255.255.0,gw:192.168.1.254
+    .
+    Connected to wifi
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    pm open,type:2 0
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetching NTP epoch time failed! Waiting 2 seconds to retry.
+    Fetched NTP epoch time is: 1598277023
+    Creating IoTHub Device handle
+
+    ```
 
 ## References
 

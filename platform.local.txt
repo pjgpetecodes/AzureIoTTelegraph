@@ -1,0 +1,14 @@
+# ESP8266 platform - Azure IoT Hub Overrides
+# ------------------------------------------
+
+# For more info:
+# https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5-3rd-party-Hardware-specification
+
+name=ESP8266 Boards (2.7.4)
+version=2.7.4
+
+# These will be removed by the packager script when doing a JSON release
+
+
+# This can be overriden in boards.txt
+build.extra_flags=-DESP8266 -DDONT_USE_UPLOADTOBLOB -DUSE_BALTIMORE_CERT
